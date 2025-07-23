@@ -3,13 +3,14 @@
 	"id": "modpackupdater",
 	"version": "${version}",
 	"name": "ModpackUpdater",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod for updating modpacks easily.",
 	"authors": [
-		"Me!"
+		"BaicaiBear",
+        "MirrorTree"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/MirrorTree-MC",
+		"sources": "https://github.com/MirrorTree-MC/modpackupdater"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/modpackupdater/icon.png",

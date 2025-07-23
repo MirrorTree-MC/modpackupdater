@@ -112,9 +112,6 @@ public class IncrementalUpdater {
                 manifestIdMap.put(entry.id, entry);
             }
         }
-        // 自我审查
-        cleanOldSelfVersions();
-        cleanModsFolder(manifestIdMap);
         boolean changed = false;
         // 首次同步本地记录，保证本地version文件不存在时也能生成
         for (FileEntry entry : manifest.files) {
@@ -148,15 +145,16 @@ public class IncrementalUpdater {
             }
             if (needsUpdate) {
                 try {
-                    System.out.println("[INFO] Updating: " + entry.path);
+                    System.out.println("[INFO] Downloading new file: " + entry.path);
                     downloadFile(entry.url, localPath);
                     if ("version".equals(entry.mode)) {
                         localVersions.put(entry.path, entry.version);
                         changed = true;
                     }
                     ModpackUpdaterClient.updated = true;
+                    System.out.println("[INFO] Update finished: " + entry.path);
                 } catch (Exception e) {
-                    System.err.println("[ERROR] Update failed for " + entry.path + ": " + e.getMessage());
+                    System.err.println("[ERROR] Download or replace failed for " + entry.path + ": " + e.getMessage());
                     e.printStackTrace();
                 }
             } else {
@@ -175,6 +173,11 @@ public class IncrementalUpdater {
             System.err.println("[ERROR] Delete redundant files failed: " + e.getMessage());
             e.printStackTrace();
         }
+
+        // 自我审查
+        cleanOldSelfVersions();
+        cleanModsFolder(manifestIdMap);
+
         if (changed) {
             try {
                 saveLocalVersions(localVersions);
@@ -217,10 +220,9 @@ public class IncrementalUpdater {
                             System.out.println("[DEBUG] Compare mod id: " + modInfo.id + ", local version: "
                                     + modInfo.version + ", manifest version: " + manifestEntry.version);
                             if (!modInfo.version.toString().equals(manifestEntry.version.toString())) {
-                                // id在manifest但版本不一致，删除，后续会下载新文件
+                                // id在manifest但版本不一致，删除
                                 System.out.println("[INFO] Deleting outdated mod: " + jarPath.getFileName());
                                 Files.delete(jarPath);
-                                ModpackUpdaterClient.updated = true;
                             }
                         }
                         // id不在manifest，保留本地mod
