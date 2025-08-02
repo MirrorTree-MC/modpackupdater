@@ -1,0 +1,40 @@
+{
+    "files": [
+        {
+            "path": "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip",
+            "mode": "version",
+            "type": "resourcepack",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "resourcepacks/并非矿透 v1.5.5-beta.zip",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/resourcepacks/%E5%B9%B6%E9%9D%9E%E7%9F%BF%E9%80%8F%20v1.5.5-beta.zip",
+            "mode": "version",
+            "type": "resourcepack",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "shaderpacks/BSLOriginal_v8.3.zip",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/shaderpacks/BSLOriginal_v8.3.zip",
+            "mode": "version",
+            "type": "shaderpack",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "shaderpacks/BSLOriginal_v8.3.zip.txt",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/shaderpacks/BSLOriginal_v8.3.zip.txt",
+            "mode": "version",
+            "type": "shaderpack",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "servers.dat",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/servers.dat",
+            "mode": "version",
+            "type": "serverlist",
+            "version": "2025.07.22"
+        }
+    ],
+    "delete": []
+}

@@ -1,0 +1,95 @@
+{
+    "files": [
+        {
+            "path": "mods/ftbteams.jar",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/mods/ftbteams.jar",
+            "mode": "version",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "mods/rewards.jar",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/mods/rewards.jar",
+            "mode": "version",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "mods/ftblibrary.jar",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/mods/ftblibrary.jar",
+            "mode": "version",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "mods/sync-sign-notice.jar",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/mods/sync-sign-notice.jar",
+            "mode": "version",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "mods/annoyingeffects.jar",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/mods/annoyingeffects.jar",
+            "mode": "version",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "mods/ftbquests.jar",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/mods/ftbquests.jar",
+            "mode": "version",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "mods/lantern-in-storm.jar",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/mods/lantern-in-storm.jar",
+            "mode": "version",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "mods/duel.jar",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/mods/duel.jar",
+            "mode": "version",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "mods/mirrortree.jar",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/mods/mirrortree.jar",
+            "mode": "version",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "mods/selling-bin.jar",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/mods/selling-bin.jar",
+            "mode": "version",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip",
+            "mode": "version",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "resourcepacks/并非矿透 v1.5.5-beta.zip",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/resourcepacks/%E5%B9%B6%E9%9D%9E%E7%9F%BF%E9%80%8F%20v1.5.5-beta.zip",
+            "mode": "version",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "shaderpacks/BSLOriginal_v8.3.zip",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/shaderpacks/BSLOriginal_v8.3.zip",
+            "mode": "version",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "shaderpacks/BSLOriginal_v8.3.zip.txt",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/shaderpacks/BSLOriginal_v8.3.zip.txt",
+            "mode": "version",
+            "version": "2025.07.22"
+        },
+        {
+            "path": "servers.dat",
+            "url": "https://cos-mirror.bearcabbage.top/modpack-update/servers.dat",
+            "mode": "version",
+            "version": "2025.07.22"
+        }
+    ],
+    "delete": []
+}
